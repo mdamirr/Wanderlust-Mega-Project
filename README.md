@@ -1,34 +1,46 @@
-# 🚀 Wanderlust – MERN App (DevOps Practice)
+# 🚀 Wanderlust – Three-Tier Web Application (DevOps Practice)
 
-A full-stack *MERN application* built and deployed as part of my *DevOps learning journey*.
-This project showcases an end-to-end *CI/CD pipeline*, covering integration, containerization, and deployment on Kubernetes.
-
----
-
-## 🧩 CI/CD Overview
-
-* *Continuous Integration (CI):*
-  Implemented using *GitHub Actions* to automatically build, test, and package the application on every push or pull request.
-  Docker images are built for both frontend and backend and validated before deployment.
-
-* *Continuous Deployment (CD):*
-  Successfully pushes images to *Docker Hub* and deploys them to a *Kubernetes cluster* using manifest files.
-  Optional *Terraform* templates are included for provisioning cloud infrastructure (EC2) to host the application.
+A production-style three-tier web application built as part of my DevOps learning journey, demonstrating end-to-end CI/CD, containerization, and Kubernetes deployment.
 
 ---
 
-## 🛠 Technologies Used
+## Architecture (Three Tiers)
 
-* *Frontend:* React 
-* *Backend:* Node.js, Express, MongoDB, Redis
-* *Containerization:* Docker & Docker Compose
-* *Orchestration:* Kubernetes
-* *Automation / CI/CD:* GitHub Actions, Jenkins
-* *Infrastructure as Code:* Terraform
-* *Version Control:* Git & GitHub
+* Tier 1 — Frontend: React single-page application 
+* Tier 2 —  Node.js
+* Tier 3 — Data: MongoDB,Redis for caching
+
+  Amazon EKS for managed Kubernetes.
+
+---
+
+## Technologies Used
+
+* Containerization: Docker, Docker Compose
+* Orchestration: Kubernetes  & Argo CD 
+* CI/CD: GitHub Actions for CI, Jenkins for CD
+* Security & Quality: OWASP-aligned checks, Trivy image scans, SonarQube code quality gates
+* Observability: Prometheus metrics, Grafana dashboards and alerts
+* Infrastructure as Code: Terraform
+* Notifications: Email alerts
+
+---
+
+## Security & Quality (Brief)
+
+* OWASP-aligned dependency and configuration checks.
+* Trivy scans to identify container vulnerabilities.
+* SonarQube static analysis with quality gates.
+
+---
+
+## Observability (Brief)
+
+* Prometheus scrapes application and cluster metrics.
+* Grafana visualizes latency, error rate, resource usage, and supports alerting.
 
 ---
 
 ## Credits
 
-Application structure inspired by open-source MERN tutorials.
+Application structure inspired by open-source.
