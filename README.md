@@ -8,7 +8,7 @@ A production-style three-tier web application built as part of my DevOps learnin
 
 * Tier 1 — Frontend: React single-page application 
 * Tier 2 —  Node.js
-* Tier 3 — Data: MongoDB,Redis for caching
+* Tier 3 — Data: MongoDB,Redis for caching  
 
   Amazon EKS for managed Kubernetes.
 
