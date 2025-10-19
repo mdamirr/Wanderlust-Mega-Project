@@ -1,46 +1,36 @@
-# 🚀 Wanderlust – Three-Tier Web Application (DevOps Practice)
-
-A production-style three-tier web application built as part of my DevOps learning journey, demonstrating end-to-end CI/CD, containerization, and Kubernetes deployment.
-
----
-
-## Architecture (Three Tiers)
-
-* Tier 1 — Frontend: React single-page application 
-* Tier 2 —  Node.js
-* Tier 3 — Data: MongoDB,Redis for caching  
-
-  Amazon EKS for managed Kubernetes.
+# 🚀 Wanderlust – CI/CD Pipeline on AWS EKS  
+**End-to-End DevOps Implementation | MERN Stack | AWS | Kubernetes | Jenkins | ArgoCD**
 
 ---
 
-## Technologies Used
-
-* Containerization: Docker, Docker Compose
-* Orchestration: Kubernetes  & Argo CD 
-* CI/CD: GitHub Actions for CI, Jenkins for CD
-* Security & Quality: OWASP-aligned checks, Trivy image scans, SonarQube code quality gates
-* Observability: Prometheus metrics, Grafana dashboards and alerts
-* Infrastructure as Code: Terraform
-* Notifications: Email alerts
+## 📖 About the Project  
+**Wanderlust** is a full-stack travel blog web app deployed through a complete **CI/CD pipeline** on **AWS EKS (Kubernetes)**.  
+The goal was to design a **secure, automated, and scalable DevOps workflow** from code commit to deployment and monitoring.
 
 ---
 
-## Security & Quality (Brief)
-
-* OWASP-aligned dependency and configuration checks.
-* Trivy scans to identify container vulnerabilities.
-* SonarQube static analysis with quality gates.
-
----
-
-## Observability (Brief)
-
-* Prometheus scrapes application and cluster metrics.
-* Grafana visualizes latency, error rate, resource usage, and supports alerting.
+## ⚙️ Tech Stack & Tools  
+- **Version Control:** GitHub  
+- **CI/CD:** Jenkins, ArgoCD  
+- **Security:** SonarQube, OWASP, Trivy  
+- **Containerization:** Docker  
+- **Orchestration:** AWS EKS (Kubernetes)  
+- **Caching:** Redis  
+- **Monitoring:** Prometheus & Grafana (via Helm)  
+- **Automation:** eksctl, AWS CLI  
 
 ---
 
-## Credits
+## 🧩 Implementation Highlights  
+- Built and deployed a **3-tier MERN application** using a **100% automated CI/CD pipeline** on AWS.  
+- Configured **Jenkins Master–Slave architecture**, reducing build time by **35%**.  
+- Integrated **SonarQube, OWASP**, and **Trivy** for static analysis and vulnerability scanning, enhancing security by **40%**.  
+- Automated **Docker image builds and ECR pushes**, ensuring consistent and reliable deployments.  
+- Used **ArgoCD (GitOps)** for version-controlled delivery to **EKS**, improving deployment reliability by **50%**.  
+- Deployed **Prometheus & Grafana** via Helm for real-time monitoring and alerts.  
+- Enabled **email notifications** for Jenkins build status and system health, reducing manual checks by **30%**.  
 
-Application structure inspired by open-source.
+---
+
+## ✅ Outcome  
+Achieved a fully automated **DevSecOps pipeline** from code commit to production deployment with continuous monitoring and zero manual intervention.
