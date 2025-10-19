@@ -22,15 +22,15 @@ The goal was to design a **secure, automated, and scalable DevOps workflow** fro
 ---
 
 ## 🧩 Implementation Highlights  
-- Built and deployed a **3-tier MERN application** using a **100% automated CI/CD pipeline** on AWS.  
-- Configured **Jenkins Master–Slave architecture**, reducing build time by **35%**.  
-- Integrated **SonarQube, OWASP**, and **Trivy** for static analysis and vulnerability scanning, enhancing security by **40%**.  
-- Automated **Docker image builds and ECR pushes**, ensuring consistent and reliable deployments.  
-- Used **ArgoCD (GitOps)** for version-controlled delivery to **EKS**, improving deployment reliability by **50%**.  
-- Deployed **Prometheus & Grafana** via Helm for real-time monitoring and alerts.  
-- Enabled **email notifications** for Jenkins build status and system health, reducing manual checks by **30%**.  
+- Built and deployed a **3-tier MERN application** using a fully automated CI/CD pipeline on AWS.  
+- Configured **Jenkins Master–Slave architecture** for distributed build execution.  
+- Integrated **SonarQube, OWASP**, and **Trivy** for static code analysis and vulnerability scanning.  
+- Automated **Docker image build and push** to ECR, ensuring reliable container deployments.  
+- Used **ArgoCD (GitOps)** for continuous delivery to AWS **EKS** with version control.  
+- Deployed **Prometheus & Grafana** via Helm for real-time monitoring and alerting.  
+- Set up **email notifications** in Jenkins for build status and system updates.  
 
 ---
 
 ## ✅ Outcome  
-Achieved a fully automated **DevSecOps pipeline** from code commit to production deployment with continuous monitoring and zero manual intervention.
+Achieved a fully automated **DevSecOps pipeline** from code commit to production deployment with continuous monitoring and minimal manual intervention.
