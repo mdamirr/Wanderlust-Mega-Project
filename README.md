@@ -37,7 +37,3 @@ The goal was to design a **secure, automated, and scalable DevSecOps workflow** 
 - Achieved **secure, scalable, and resilient cloud deployments** on AWS EKS.  
 - Enabled **continuous monitoring and alerting** with Prometheus & Grafana.  
 - Reduced manual intervention and deployment time significantly.  
-
----
-
-## 🗂️ Repository Structure  
